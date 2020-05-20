@@ -63,3 +63,11 @@ a{color:#333;}
   right:40px;
   bottom: 60px;
 }
+.footer{
+  padding: 40px 0;
+  width: 100%;
+  background: #242424;
+  color: #fff;
+}
+.footer .msg{width:1200px;margin:0 auto;font-size:16px;text-align:center;}
+.footer font{display:block;font-size:12px;color:#999;margin-top:20px;}
