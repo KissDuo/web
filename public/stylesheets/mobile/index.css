@@ -3,15 +3,14 @@
     background:#fec104;
 }
 .swiper-container.banner{
-    width:1000px;
     margin:0 auto;
     cursor: pointer;
 }
 .swiper-container.banner .swiper-slide{
     display: block;
     width:100%;
-    height: 350px;
-    background:url("../images/banner/banner_1.jpg") no-repeat center;
+    height: 2.8rem;
+    background:url("../../images/banner/banner_1.jpg") no-repeat center;
     background-size: cover;
     cursor: pointer;
 }
@@ -21,18 +20,18 @@
     margin-top: 30px;
 }
 .block{
-    padding: 30px 0 30px;
-    margin-bottom: 40px;
+    padding: 0.26rem 0;
+    margin-bottom: 0.32rem;
     width:100%;
-    margin-top:20px;
+    margin-top:0.2rem;
 }
 .block .title{
-    font-size: 40px;
+    font-size: 0.3rem;
     color:#333;
     font-weight: bold;
     position: relative;
     text-align: center;
-    width:160px;
+    width:1.6rem;
     margin:0 auto 60px;
 }
 .block .title::before,
@@ -54,73 +53,75 @@
 }
 .block .detail{
     color:#666;
-    font-size: 22px;
+    font-size: 0.24rem;
+    padding:0 0.4rem;
 }
 .block .detail .sentence{
     text-indent: 2em;
 }
 .block .leftInfo{
-    width:638px;
-    height: 390px;
+    width:4.5rem;
+    height: 5.6rem;
+    padding-left: 0.4rem;
 }
 .block .leftInfo .item{
     position: relative;
-    margin-bottom: 20px;
-    padding-left: 70px;
-    padding-top: 20px;
+    margin-bottom: 0.18rem;
+    padding-left: 0.64rem;
+    padding-top: 0.16rem;
 }
 .block .leftInfo .item .icon{
-    width:45px;
-    height: 45px;
+    width:0.4rem;
+    height: 0.4rem;
     position: absolute;
     left:0;
-    top:20px;
+    top:0.2rem;
     background:none no-repeat center;
     background-size: 100% 100%;
 }
 .block .leftInfo .item.index .icon{
-    background-image:url("../images/icon/icon_index_gray.png");
+    background-image:url("../../images/icon/icon_index_gray.png");
 }
 .block .leftInfo .item.index.active .icon{
-    background-image:url("../images/icon/icon_index.png");
+    background-image:url("../../images/icon/icon_index.png");
 }
 .block .leftInfo .item.store .icon{
-    background-image:url("../images/icon/icon_store_gray.png");
+    background-image:url("../../images/icon/icon_store_gray.png");
 }
 .block .leftInfo .item.store.active .icon{
-    background-image:url("../images/icon/icon_store.png");
+    background-image:url("../../images/icon/icon_store.png");
 }
 .block .leftInfo .item.activity .icon{
-    background-image:url("../images/icon/icon_activity_gray.png");
+    background-image:url("../../images/icon/icon_activity_gray.png");
 }
 .block .leftInfo .item.activity.active .icon{
-    background-image:url("../images/icon/icon_activity.png");
+    background-image:url("../../images/icon/icon_activity.png");
 }
 .block .leftInfo .item.mine .icon{
-    background-image:url("../images/icon/icon_mine_gray.png");
+    background-image:url("../../images/icon/icon_mine_gray.png");
 }
 .block .leftInfo .item.mine.active .icon{
-    background-image:url("../images/icon/icon_mine.png");
+    background-image:url("../../images/icon/icon_mine.png");
 }
 .block .leftInfo .item.question .icon{
-    background-image:url("../images/icon/icon_question_gray.png");
+    background-image:url("../../images/icon/icon_question_gray.png");
 }
 .block .leftInfo .item.question.active .icon{
-    background-image:url("../images/icon/icon_question.png");
+    background-image:url("../../images/icon/icon_question.png");
 }
 .block .leftInfo .item.select .icon{
-    background-image:url("../images/icon/icon_select_gray.png");
+    background-image:url("../../images/icon/icon_select_gray.png");
 }
 .block .leftInfo .item.select.active .icon{
-    background-image:url("../images/icon/icon_select.png");
+    background-image:url("../../images/icon/icon_select.png");
 }
 .block .leftInfo .item .name{
-    font-size: 24px;
+    font-size: 0.24rem;
     color:#666;
     font-weight: bold;
 }
 .block .leftInfo .item .desc{
-    font-size: 14px;
+    font-size: 0.14rem;
     color:#999;
 }
 .block .leftInfo .item.active{
@@ -128,23 +129,23 @@
 }
 .block .leftInfo .item.active .name{
     color:#23b832;
-    font-size: 40px;
+    font-size: 0.4rem;
 }
 .block .leftInfo .item.active .desc{
-    font-size: 24px;
+    font-size: 0.24rem;
 }
 .block .bg{
-    width:346px;
-    height: 708px;
-    background:url("../images/phone_bg.png") no-repeat center;
+    width:2.6rem;
+    height: 5.4rem;
+    background:url("../../images/phone_bg.png") no-repeat center;
     background-size: 100% 100%;
     position: relative;
 }
 .block .bg .pic{
-    width:310px;
-    height: 670px;
+    width:2.36rem;
+    height: 5.1rem;
     position: absolute;
-    left:20px;
-    top:28px;
-    border-radius: 40px;
+    left:0.12rem;
+    top:0.16rem;
+    border-radius: 0.26rem;
 }

@@ -1,9 +1,14 @@
 var express = require('express');
 var router = express.Router();
+var Util = require('../public/javascripts/util.js');
 
-/* GET home page. */
+/* 首页 */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  if(Util.checkAgentIsMobile(req)){
+    res.render('mobile/index');
+  }else{
+    res.render('pc/index');
+  }
 });
 
 module.exports = router;

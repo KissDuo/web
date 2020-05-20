@@ -1,0 +1,19 @@
+.toIndex{
+    font-size: 0;
+    display: block;
+    text-align: center;
+    padding:0.24rem 0;
+}
+.toIndex .logo{
+    width:0.6rem;
+    height: 0.6rem;
+    display: inline-block;
+}
+.toIndex .titleName{
+    font-size: 0.26rem;
+    margin-left: 0.2rem;
+    color:#333;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    display: inline-block;
+}
