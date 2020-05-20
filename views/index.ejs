@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>一起剧本杀</title>
+    <% include common/common %>
+  </head>
+  <body>
+    <% include common/menu %>
+    <% include common/header %>
+    <link rel='stylesheet' href='/stylesheets/index.css' />
+    <div class="swiper">
+      <div class="swiper-container banner">
+        <div class="swiper-wrapper">
+          <a class="swiper-slide" href="https://mp.weixin.qq.com/s/pEGe-ppdwcfyM0QcQmH2LQ" target="_blank"></a>
+        </div>
+      </div>
+    </div>
+    <div class="content clearfix">
+      <div class="block clearfix block0">
+        <div class="title">基本介绍</div>
+        <div class="detail">
+          <div class="sentence">无论你是一名喜欢剧本杀的玩家，还是有着自己小店的剧本杀店家，微信小程序【一起剧本杀】一定会让你打开眼界！</div>
+          <div class="sentence">在这里你会知道什么剧本杀最好玩、会知道业内各种行业八卦、各种前线信息、各种福利活动等一系列重要信息！</div>
+        </div>
+      </div>
+    </div>
+    <div class="content clearfix">
+      <div class="block clearfix block1">
+        <div class="title">功能大全</div>
+        <div class="leftInfo fl">
+          <div class="item index active">
+            <div class="icon"></div>
+            <div class="name">首页</div>
+            <div class="desc">元素聚合</div>
+          </div>
+          <div class="item select">
+            <div class="icon"></div>
+            <div class="name">剧本筛选</div>
+            <div class="desc">丰富的剧本库</div>
+          </div>
+          <div class="item store">
+            <div class="icon"></div>
+            <div class="name">剧本杀店铺</div>
+            <div class="desc">查看同城店家及剧本</div>
+          </div>
+          <div class="item activity">
+            <div class="icon"></div>
+            <div class="name">公益活动</div>
+            <div class="desc">各种免费送奖品的活动</div>
+          </div>
+          <div class="item mine">
+            <div class="icon"></div>
+            <div class="name">个人中心</div>
+            <div class="desc">查看我的专属记录</div>
+          </div>
+          <div class="item question">
+            <div class="icon"></div>
+            <div class="name">问答</div>
+            <div class="desc">各种剧本杀疑难杂症</div>
+          </div>
+        </div>
+
+        <div class="bg fl">
+          <img class="pic" src="../images/index/1.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <% include common/footer %>
+  </body>
+  <script>
+    // var windowWidth = $(window).width();
+    // if(windowWidth >= 1440){
+    //   $("body").addClass("bigScreen");
+    // }else{
+    //   $("body").addClass("smallScreen");
+    // }
+
+    $("body").on("mouseover",".block1 .item",function(e){
+      $(this).addClass("active").siblings().removeClass("active");
+      if($(this).hasClass("index")){
+        $(".block1 .bg .pic").attr("src","../images/index/1.jpg");
+      }else if($(this).hasClass("store")){
+        $(".block1 .bg .pic").attr("src","../images/index/store_1.jpg");
+      }else if($(this).hasClass("activity")){
+        $(".block1 .bg .pic").attr("src","../images/index/activity_1.jpg");
+      }else if($(this).hasClass("mine")){
+        $(".block1 .bg .pic").attr("src","../images/index/mine_1.jpg");
+      }else if($(this).hasClass("question")){
+        $(".block1 .bg .pic").attr("src","../images/index/question_1.jpg");
+      }else if($(this).hasClass("select")){
+        $(".block1 .bg .pic").attr("src","../images/index/select_1.jpg");
+      }
+    })
+    // $(".block1 .item").hover(function (e) {
+    //   $(e.target).addClass("active").siblings().removeClass("active")
+    //   console.log($(e.target))
+    // })
+  </script>
+</html>

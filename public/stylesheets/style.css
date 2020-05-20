@@ -1,0 +1,65 @@
+*{margin:0;}
+body{font: normal 32px;font-family:"PingFang SC","Microsoft YaHei", "微软雅黑","Hiragino Sans GB", "Lantinghei SC", "Open Sans", Arial, "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;}
+html,body{
+  -webkit-text-size-adjust:none;
+  background:#f8f8f8;
+}
+a{
+  text-decoration:none;
+  outline: none;
+}
+li{list-style-type:none;}
+input{
+  outline:none;
+}
+img{
+  width: 100%;
+  max-width: 100%;
+  vertical-align: top;
+  font-size:0.5rem;
+  border-style:none;
+}
+.fl {float: left;}
+.fr {float: right;}
+.clearfix:after {
+  content: " ";
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  zoom:1;
+}
+html, body, h1, h2, h3, p, span, a, div, ol, ul, li, dl, dt, dd, table, tbody, tfoot, thead, tr, th, td, input, textarea, form {
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+}
+h1, h2, h3 {font-size: 100%;}
+.fff{background:#fff;}
+a{color:#333;}
+/**********分割线**********/
+.main_pc{width:1100px;margin:0 auto;}
+.show{display: block !important;}
+/*点击更换菜单*/
+.menuItem.cur{border-bottom: 1px solid #FF2737;color:#FF2737;}
+.menuItemBlock{display: none;}
+/*滚动碎屏*/
+.fixedBox.fixed{position: fixed;}
+.fixedBox.fixed.fixedTop{top:0;}
+.fixedBox.fixed.fixedBottom{bottom: 0;}
+/*灰色蒙层*/
+.grayBg{position: fixed;top:0;left:0;display: none;z-index: 999;}
+/*隐藏信息*/
+.hideInfo{display: none;position: absolute;z-index: 9999}
+
+.content{
+  width:1000px;
+  margin:0 auto;
+}
+.code{
+  position: fixed;
+  width:100px;
+  height: 100px;
+  right:40px;
+  bottom: 60px;
+}
