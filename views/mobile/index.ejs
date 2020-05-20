@@ -70,7 +70,7 @@
 <% include common/footer %>
 </body>
 <script>
-    $("body").on("mouseover",".block1 .item",function(e){
+    $("body").on("click",".block1 .item",function(e){
         $(this).addClass("active").siblings().removeClass("active");
         if($(this).hasClass("index")){
             $(".block1 .bg .pic").attr("src","../images/index/1.jpg");
