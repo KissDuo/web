@@ -1,0 +1,151 @@
+.swiper{
+    width:100%;
+    background:#fec104;
+}
+.swiper-container.banner{
+    width:1000px;
+    margin:0 auto;
+    cursor: pointer;
+}
+.swiper-container.banner .swiper-slide{
+    display: block;
+    width:100%;
+    height: 350px;
+    background:url("../../images/banner/banner_2.png") no-repeat center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+/*模块*/
+.line{
+    margin-top: 30px;
+}
+.block{
+    padding: 30px 0 30px;
+    margin-bottom: 40px;
+    width:100%;
+    margin-top:20px;
+}
+.block .title{
+    font-size: 40px;
+    color:#333;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    width:160px;
+    margin:0 auto 60px;
+}
+.block .title::before,
+.block .title::after{
+    position: absolute;
+    display: block;
+    content: "";
+    width:50px;
+    height: 1px;
+    background:#aaa;
+    left:-80px;
+    top:0;
+    bottom:0;
+    margin:auto;
+}
+.block .title::after{
+    left: auto;
+    right:-80px;
+}
+.block .detail{
+    color:#666;
+    font-size: 22px;
+    padding:0 0.4rem;
+}
+.block .detail .sentence{
+    text-indent: 2em;
+}
+.block .leftInfo{
+    width:638px;
+    height: 390px;
+}
+.block .leftInfo .item{
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+.block .leftInfo .item .icon{
+    width:45px;
+    height: 45px;
+    position: absolute;
+    left:0;
+    top:20px;
+    background:none no-repeat center;
+    background-size: 100% 100%;
+}
+.block .leftInfo .item.index .icon{
+    background-image:url("../../images/icon/icon_index_gray.png");
+}
+.block .leftInfo .item.index.active .icon{
+    background-image:url("../../images/icon/icon_index.png");
+}
+.block .leftInfo .item.store .icon{
+    background-image:url("../../images/icon/icon_store_gray.png");
+}
+.block .leftInfo .item.store.active .icon{
+    background-image:url("../../images/icon/icon_store.png");
+}
+.block .leftInfo .item.activity .icon{
+    background-image:url("../../images/icon/icon_activity_gray.png");
+}
+.block .leftInfo .item.activity.active .icon{
+    background-image:url("../../images/icon/icon_activity.png");
+}
+.block .leftInfo .item.mine .icon{
+    background-image:url("../../images/icon/icon_mine_gray.png");
+}
+.block .leftInfo .item.mine.active .icon{
+    background-image:url("../../images/icon/icon_mine.png");
+}
+.block .leftInfo .item.question .icon{
+    background-image:url("../../images/icon/icon_question_gray.png");
+}
+.block .leftInfo .item.question.active .icon{
+    background-image:url("../../images/icon/icon_question.png");
+}
+.block .leftInfo .item.select .icon{
+    background-image:url("../../images/icon/icon_select_gray.png");
+}
+.block .leftInfo .item.select.active .icon{
+    background-image:url("../../images/icon/icon_select.png");
+}
+.block .leftInfo .item .name{
+    font-size: 24px;
+    color:#666;
+    font-weight: bold;
+}
+.block .leftInfo .item .desc{
+    font-size: 14px;
+    color:#999;
+}
+.block .leftInfo .item.active{
+    padding-top: 0px;
+}
+.block .leftInfo .item.active .name{
+    color:#23b832;
+    font-size: 40px;
+}
+.block .leftInfo .item.active .desc{
+    font-size: 24px;
+}
+.block .bg{
+    width:346px;
+    height: 708px;
+    background:url("../../images/phone_bg.png") no-repeat center;
+    background-size: 100% 100%;
+    position: relative;
+}
+.block .bg .pic{
+    width:310px;
+    height: 670px;
+    position: absolute;
+    left:20px;
+    top:28px;
+    border-radius: 40px;
+}

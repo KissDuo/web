@@ -62,6 +62,7 @@ a{color:#333;}
   height: 1rem;
   right:0.2rem;
   bottom: 0.5rem;
+  z-index: 99;
 }
 .footer{
   padding: 0.34rem 0;

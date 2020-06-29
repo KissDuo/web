@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>一起剧本杀</title>
+    <% include common/common %>
+</head>
+<body>
+<script src="/javascripts/calRem.js"></script>
+<% include common/header %>
+
+<link rel='stylesheet' href='/stylesheets/mobile/app.css' />
+<div class="swiper">
+    <div class="swiper-container banner">
+        <div class="swiper-wrapper">
+            <a class="swiper-slide" href="https://mp.weixin.qq.com/s/pFJG2gjPgg6_30Gi2TQs1Q" target="_blank"></a>
+        </div>
+    </div>
+</div>
+
+<div class="content clearfix">
+    <div class="block clearfix block0">
+        <div class="title">基本介绍</div>
+        <div class="swiper-container detail">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="/images/app/app_1.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/images/app/app_2.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/images/app/app_3.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/images/app/app_4.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/images/app/app_5.jpg" alt="">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</div>
+
+<% include common/footer %>
+</body>
+<script>
+    var swiper1 = new Swiper('.swiper-container.detail',{
+        slidesPerView : 2,
+        slidesPerGroup : 1,
+        spaceBetween : 20,
+        pagination: {
+            el: '.swiper-pagination',
+        },
+    });
+</script>
+</html>

@@ -3,6 +3,7 @@
     display: block;
     text-align: center;
     padding:0.24rem 0;
+    width:50%;
 }
 .toIndex .logo{
     width:0.6rem;

@@ -1,16 +1,31 @@
 <link rel='stylesheet' href='/stylesheets/pc/menu.css' />
+<script>
+    window.route = "<%=route%>";
+</script>
+
 <div class="menu">
     <div class="content clearfix">
         <a class="toIndex clearfix fl" href="/">
             <img class="logo fl" src="../../images/wx_cx_logo.png" alt="">
             <div class="info fl">
                 <div class="name">一起剧本杀</div>
-                <div class="desc">专业评分平台</div>
+                <div class="desc">专注剧本杀游戏</div>
             </div>
         </a>
         <div class="list fl clearfix">
-            <a class="item fl active" href="/">评测小程序</a>
-<!--            <a class="item fl" href="">神秘产品</a>-->
+            <% if ( route == "index" ) { %>
+                <a class="item fl active" href="/">线下评测小程序</a>
+                <a class="item fl" href="/app">线上游戏APP</a>
+
+                <img class="code" src="../../images/wx_cx_code.png" alt="">
+        <% } else if ( route == "app" ) { %>
+                <a class="item fl" href="/">线下评测小程序</a>
+                <a class="item fl active" href="/app">线上游戏APP</a>
+
+                <img class="code" src="../../images/app_code.png" alt="">
+                <% } %>
+
+            <!--            <a class="item fl" href="">神秘产品</a>-->
 <!--            <a class="item fl" href="">关于我们</a>-->
         </div>
     </div>

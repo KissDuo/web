@@ -68,13 +68,6 @@
     <% include common/footer %>
   </body>
   <script>
-    // var windowWidth = $(window).width();
-    // if(windowWidth >= 1440){
-    //   $("body").addClass("bigScreen");
-    // }else{
-    //   $("body").addClass("smallScreen");
-    // }
-
     $("body").on("mouseover",".block1 .item",function(e){
       $(this).addClass("active").siblings().removeClass("active");
       if($(this).hasClass("index")){
@@ -91,9 +84,5 @@
         $(".block1 .bg .pic").attr("src","../images/index/select_1.jpg");
       }
     })
-    // $(".block1 .item").hover(function (e) {
-    //   $(e.target).addClass("active").siblings().removeClass("active")
-    //   console.log($(e.target))
-    // })
   </script>
 </html>

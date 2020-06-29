@@ -1,7 +1,19 @@
 <link rel='stylesheet' href='/stylesheets/mobile/header.css' />
 <div class="header clearfix">
-    <a class="toIndex clearfix" href="/">
+    <a class="toIndex fl clearfix" href="/">
         <img class="logo" src="../../images/wx_cx_logo.png" alt="">
-        <span class="titleName">一起剧本杀</span>
+        <span class="titleName">线下·评测小程序</span>
+    </a>
+    <a class="toIndex fl clearfix" href="/app">
+        <img class="logo" src="../../images/logo_app.png" alt="">
+        <span class="titleName">线上·玩本APP</span>
     </a>
 </div>
+<script>
+    window.route = "<%=route%>";
+</script>
+<% if ( route == "index" ) { %>
+    <img class="code" src="../../images/wx_cx_code.png" alt="">
+<% } else if ( route == "app" ) { %>
+    <img class="code" src="../../images/app_code.png" alt="">
+<% } %>
